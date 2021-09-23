@@ -70,7 +70,8 @@
       "increasedVolume": "<@{author}> 🔊 sesi artırdı ses seviyesi {volume}%",
       "loopSong": "<@{author}> Döngü şuan {loop}",
       "stopSong": "<@{author}> ⏹ müziği durdurdu!",
-      "leaveChannel": "Sesli kanaldan çıkıyor..."
+      "leaveChannel": "Sesli kanaldan çıkıyor...",
+      "songNotFound": "Audio Not Found"
     },
     "playlist": {
       "description": "Youtubeden bir çalma listesi oynat",
@@ -160,6 +161,6 @@
       "disabled": "**devre dışı bırakıldı**",
       "errorNotChannel": "Önce sesli sohbet kanalına girmelisiniz!",
       "cooldownMessage": "`{name}` komutunu kullanmak için {time} saniye beklemelisiniz .",
-      "errorCommend": "Komutu gerçekleştirirken bir hata oluştu."
+      "errorCommand": "Komutu gerçekleştirirken bir hata oluştu."
     }
   }

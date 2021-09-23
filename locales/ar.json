@@ -70,7 +70,8 @@
     "increasedVolume": "<@{author}> 🔊 **{volume}%** زاد الصوت, مستوي الصوت الان هو",
     "loopSong": "<@{author}> التكرار الان {loop}",
     "stopSong": "<@{author}> أوقف الموسيقى ⏹",
-    "leaveChannel": "جارٍ ترك القناة الصوتية..."
+    "leaveChannel": "جارٍ ترك القناة الصوتية...",
+    "songNotFound": "Audio Not Found"
   },
   "playlist": {
     "description": "تشغيل قائمة تشغيل من يوتيوب",
@@ -160,6 +161,6 @@
     "disabled": "**مقفل**",
     "errorNotChannel": "تحتاج إلى الانضمام إلى قناة صوتية أولاً!",
     "cooldownMessage": "يرجى الانتظار {time} ثانية أخرى قبل إعادة استخدام الأمر `{name}`.",
-    "errorCommend": "حدث خطأ أثناء تنفيذ هذا الأمر."
+    "errorCommand": "حدث خطأ أثناء تنفيذ هذا الأمر."
   }
 }

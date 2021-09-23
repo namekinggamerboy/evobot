@@ -70,7 +70,8 @@
       "increasedVolume": "<@{author}> 🔊 ökade volymen, volymen är nu {volume}%",
       "loopSong": "<@{author}> Loop är nu {loop}",
       "stopSong": "<@{author}> ⏹ stoppade musiken!",
-      "leaveChannel": "Lämna röstkanal..."
+      "leaveChannel": "Lämna röstkanal...",
+      "songNotFound": "Audio Not Found"
     },
     "playlist": {
       "description": "Spela en spellista från youtube",
@@ -160,7 +161,7 @@
       "disabled": "**Inaktiverad**",
       "errorNotChannel": "Du måste gå med i en röstkanal först!",
       "cooldownMessage": "vänta {time} sekunder till innan du återanvänder kommandot `{name}`.",
-      "errorCommend": "Det uppstod ett fel vid körningen av kommandot."
+      "errorCommand": "Det uppstod ett fel vid körningen av kommandot."
     }
   }
   

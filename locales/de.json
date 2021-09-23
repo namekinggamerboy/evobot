@@ -70,7 +70,8 @@
     "increasedVolume": "<@{author}> 🔊 hat die Lautstärke erhöht, sie ist jetzt auf {volume}%",
     "loopSong": "<@{author}> Musikschleife ist nun auf {loop}",
     "stopSong": "<@{author}> ⏹ hat die Musik gestoppt!",
-    "leaveChannel": "Verlasse den Voice-Channel..."
+    "leaveChannel": "Verlasse den Voice-Channel...",
+    "songNotFound": "Audio Not Found"
   },
   "playlist": {
     "description": "Spielt eine Playlist von Youtube ab",
@@ -160,6 +161,6 @@
     "disabled": "**deaktiviert**",
     "errorNotChannel": "Betrete zuerst einen Voice-Channel!",
     "cooldownMessage": "Bitte warte noch {time} Sekunde(n) bevor du wieder den Command `{name}` nuzten kannst.",
-    "errorCommend": "Da war ein Fehler beim ausführen des Commands."
+    "errorCommand": "Da war ein Fehler beim ausführen des Commands."
   }
 }

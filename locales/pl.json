@@ -56,11 +56,11 @@
     "SkładniaReply": "Składnia: {prefix}play <YouTube URL | Nazwa Nagrania | Soundcloud URL>",
     "missingPermissionConnect": "Nie mogę połączyć się z tym kanałem, sprawdź uprawnienia!",
     "missingPermissionSpeak": "Nie mogę odtwarzać w tym kanale, sprawdź uprawnienia!",
-    "queueAdded": "✅ Utwó **{title}** został dodany przez <@{author}>",
+    "queueAdded": "✅ Utwór **{title}** został dodany do kolejki przez <@{author}>",
     "cantJoinChannel": "Brak możliwości dołączenia na kanał: {error}",
     "queueEnded": "❌ Kolejka odtwarzania skończona.",
     "queueError": "Błąd: {error}",
-    "startedPlaying": "🎶 Zaczęto odtwarzanie: **{title}** {url}",
+    "startedPlaying": "🎶 Rozpoczęto odtwarzanie: **{title}** {url}",
     "skipSong": "<@{author}> ⏩ pominął",
     "pauseSong": "<@{author}> ⏸ zatrzymał odtwarzanie.",
     "resumeSong": "<@{author}> ▶ wznowił odtwarzanie!",
@@ -70,7 +70,8 @@
     "increasedVolume": "<@{author}> 🔊 podniósł poziom głośności, wynosi teraz: {volume}%",
     "loopSong": "<@{author}> Przełączył pętlę na: {loop}",
     "stopSong": "<@{author}> ⏹ Zatrzymał odtwarzanie!",
-    "leaveChannel": "Opuszczanie kanału głosowego..."
+    "leaveChannel": "Opuszczanie kanału głosowego...",
+    "songNotFound": "Utwór nie znaleziony."
   },
   "playlist": {
     "description": "Odtwarza listę odtwarzania z youtuba",
@@ -79,7 +80,7 @@
     "errorNotInSameChannel": "Musisz być na tym samym kanale głosowym co: {user}",
     "missingPermissionConnect": "Nie mogę połączyć się z tym kanałem, sprawdź uprawnienia!",
     "missingPermissionSpeak": "Nie mogę odtwarzać w tym kanale, sprawdź uprawnienia!",
-    "errorNotFoundPlaylist": "Lista odtwarzania nie znaleziona :(",
+    "errorNotFoundPlaylist": "Lista odtwarzania nie znaleziona. :(",
     "fetchingPlaylist": "⌛ przetwarzanie listy odtwarzania...",
     "playlistCharLimit": "\nLista odtwarzania jest większa niż dozowlony limit znaków...",
     "startedPlaylist": "<@{author}> Uruchomniono Listę odtwarzania",
@@ -154,12 +155,12 @@
     "result": "Głośność ustawiona na: **{arg}%**"
   },
   "common": {
-    "on": "**on**",
-    "off": "**off**",
+    "on": "**włączone**",
+    "off": "**wyłączone**",
     "enabled": "**włączone**",
     "disabled": "**wyłączone**",
     "errorNotChannel": "Musisz dołączyć do kanału głosowego!",
     "cooldownMessage": "Proszę zaczekaj {time} przed kolejny użyciem komendy `{name}`.",
-    "errorCommend": "Podczas wykonywania tej komendy pojawił się błąd."
+    "errorCommand": "Podczas wykonywania tej komendy pojawił się błąd."
   }
 }

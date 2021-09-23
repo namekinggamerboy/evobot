@@ -29,7 +29,7 @@
   },
   "move": {
     "description": "移动歌曲到队列的其他位置",
-    "errorNotQueue": "There is no queue.",
+    "errorNotQueue": "队列中没有歌曲",
     "usagesReply": "用法: {prefix}move <歌曲队列编号>",
     "result": "<@{author}> 🚚 从音乐队列中移动 **{title}** 至 {index}"
   },
@@ -70,7 +70,8 @@
     "increasedVolume": "<@{author}> 🔊 增加了音量, 目前音量为 {volume}%",
     "loopSong": "<@{author}> 重複播放目前是 {loop}",
     "stopSong": "<@{author}> ⏹ 停止了歌曲!",
-    "leaveChannel": "正在离开语音频道..."
+    "leaveChannel": "正在离开语音频道...",
+    "songNotFound": "没有找到曲目"
   },
   "playlist": {
     "description": "播放 YouTube 的播放清单",
@@ -160,6 +161,6 @@
     "disabled": "**关闭**",
     "errorNotChannel": "你必须先加入语音频道!",
     "cooldownMessage": "请等待 {time} 秒后再使用 `{name}` 指令",
-    "errorCommend": "执行指令时發生错误"
+    "errorCommand": "执行指令时發生错误"
   }
 }

@@ -22,7 +22,7 @@
     "result": "Reproduciendo en bucle: {loop}"
   },
   "lyrics": {
-    "description": "Obtén la letra de la canción actual",
+    "description": "Obtén la letra de la música actual",
     "errorNotQueue": "No se está reproduciendo nada.",
     "lyricsNotFound": "No se encontró la letra de {title}.",
     "embedTitle": "{title} - Letra"
@@ -34,14 +34,14 @@
     "result": "<@{author}> 🚚 movío **{title}** al puesto {index} en la cola."
   },
   "nowplaying": {
-    "description": "Muestra la canción que se está reproduciendo actualmente",
+    "description": "Muestra la música que se está reproduciendo actualmente",
     "errorNotQueue": "No se está reproduciendo nada.",
-    "embedTitle": "Canción actual:",
+    "embedTitle": "Música actual:",
     "live": " ◉ EN DIRECTO",
     "timeRemaining": "Tiempo Restante: {time}"
   },
   "pause": {
-    "description": "Pausa la canción que se está reproduciendo actualmente",
+    "description": "Pausa la música que se está reproduciendo actualmente",
     "errorNotQueue": "No se está reproduciendo nada.",
     "result": "<@{author}> ⏸ Pausó la música."
   },
@@ -61,16 +61,17 @@
     "queueEnded": "❌ Cola de música finalizada.",
     "queueError": "Error: {error}",
     "startedPlaying": "🎶 Ahora reproduciendo: **{title}** {url}",
-    "skipSong": "<@{author}> ⏩ ¡Saltó la canción!",
+    "skipSong": "<@{author}> ⏩ ¡Saltó la música!",
     "pauseSong": "<@{author}> ⏸ ¡Pausó la música!",
     "resumeSong": "<@{author}> ▶ ¡Continuó la reproducción!",
-    "unmutedSong": "<@{author}> 🔊 ¡Desilenció la musica!",
+    "unmutedSong": "<@{author}> 🔊 ¡Desilenció la música!",
     "mutedSong": "<@{author}> 🔇 ¡Silenció la música!",
     "decreasedVolume": "<@{author}> 🔉 Bajó el volumen de la música, el volumen actual ahora es {volume}%",
     "increasedVolume": "<@{author}> 🔊 Subió el volumen de la música, el volumen actual ahora es {volume}%",
-    "loopSong": "<@{author}> El bucle actual es {loop}",
+    "loopSong": "<@{author}> El bucle actual esta {loop}",
     "stopSong": "<@{author}> ⏹ ¡Paró la música!",
-    "leaveChannel": "Saliendo del chat de voz..."
+    "leaveChannel": "Saliendo del chat de voz...",
+    "songNotFound": "Audio no encontrado"
   },
   "playlist": {
     "description": "Reproduce una lista de reproducción de youtube",
@@ -96,7 +97,7 @@
     "errorNotQueue": "❌ **No se está reproduciendo nada en el servidor**",
     "currentPage": "Página actual - ",
     "embedTitle": "Cola de música\n",
-    "embedCurrentSong": "**Canción actual - [{title}]({url})**\n\n{info}"
+    "embedCurrentSong": "**Música actual - [{title}]({url})**\n\n{info}"
   },
   "remove": {
     "description": "Elimina canciones de la cola de reproducción",
@@ -115,7 +116,7 @@
     "usageReply": "Uso correcto: {prefix}{name} <Nombre del Vídeo>",
     "errorAlreadyCollector": "Un recolector de mensajes ya está activo en el servidor actualmente.",
     "errorNotChannel": "¡Primero debes unirte a un canal de voz!",
-    "resultEmbedTtile": "**Responde con el número de la canción que quieras**",
+    "resultEmbedTtile": "**Responde con el número de la música que quieras**",
     "resultEmbedDesc": "Resultados para: {search}"
   },
   "shuffle": {
@@ -124,9 +125,9 @@
     "result": "<@{author}> 🔀 ha randomizado la cola"
   },
   "skip": {
-    "description": "Salta a la sigiente canción en la cola de reproducción",
+    "description": "Salta a la sigiente música en la cola de reproducción",
     "errorNotQueue": "No se está reproduciendo nada que pueda saltar para ti.",
-    "result": "<@{author}> ⏭ Saltó la canción"
+    "result": "<@{author}> ⏭ Saltó la música"
   },
   "skipto": {
     "description": "Salta a la posición seleccionada en la cola",
@@ -160,6 +161,6 @@
     "disabled": "**desactivado**",
     "errorNotChannel": "¡Primero debes unirte a un canal de voz!",
     "cooldownMessage": "Por favor espera {time} segundos antes de volver a usar el comando `{name}`.",
-    "errorCommend": "Se produjo un error con ese comando."
+    "errorCommand": "Se produjo un error con ese comando."
   }
 }

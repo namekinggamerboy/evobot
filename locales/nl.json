@@ -70,7 +70,8 @@
     "increasedVolume": "<@{author}> 🔊 verhoogde het volume, het volume is nu {volume}%",
     "loopSong": "<@{author}> Herhaling is nu {loop}",
     "stopSong": "<@{author}> ⏹ stopte de muziek!",
-    "leaveChannel": "Voice channel verlaten..."
+    "leaveChannel": "Voice channel verlaten...",
+    "songNotFound": "Audio Not Found"
   },
   "playlist": {
     "description": "Speel een playlist af van youtube",
@@ -160,6 +161,6 @@
     "disabled": "**uitgeschakeld**",
     "errorNotChannel": "Je moet eerst een voice channel joinen!",
     "cooldownMessage": "Wacht nog {time} seconden voor je `{name}` hergebruikt.",
-    "errorCommend": "Er was een error tijdens het uitvoeren van deze command."
+    "errorCommand": "Er was een error tijdens het uitvoeren van deze command."
   }
 }
